@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DMFT – Indywidualne treningi piłkarskie z pasją</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #111;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 100px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 150px 20px;
+      background: #000;
+    }
+    header h1 {
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 20px;
+    }
+    .cta-btn {
+      background: gold;
+      color: black;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 6px;
+      margin-top: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+    .pricing-table {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .price-box {
+      flex: 1;
+      min-width: 250px;
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 30px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 4px;
+    }
+    form button {
+      background: gold;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo_dmft.png" alt="DMFT Logo" style="max-width: 200px;">
+  <h1>DMFT to miejsce dla tych, którzy chcą więcej 🔥</h1>
+  <p><button class="cta-btn" onclick="document.getElementById('kontakt').scrollIntoView()">Zacznij trening</button></p>
+</header>
+
+<section id="o-mnie">
+  <h2>O mnie</h2>
+  <p>Cześć, jestem Dawid – trener UEFA, zawodnik Fortecy Świerklany. Prowadzę indywidualne treningi piłkarskie dla dzieci i dorosłych, dopasowane do poziomu, celu i możliwości każdego zawodnika.</p>
+</section>
+
+<section id="oferta">
+  <h2>Oferta i cennik</h2>
+  <div class="pricing-table">
+    <div class="price-box">
+      <h3>1 osoba</h3>
+      <p>1 trening – 120 zł<br>5 treningów – 570 zł<br>10 treningów – 1080 zł</p>
+    </div>
+    <div class="price-box">
+      <h3>2 osoby</h3>
+      <p>1 trening – 110 zł/os.<br>5 treningów – 525 zł/os.<br>10 treningów – 990 zł/os.</p>
+    </div>
+    <div class="price-box">
+      <h3>3–4 osoby</h3>
+      <p>1 trening – 100 zł/os.<br>5 treningów – 475 zł/os.<br>10 treningów – 900 zł/os.</p>
+    </div>
+  </div>
+  <p style="margin-top: 30px;">Bonusy: 5 treningów – DMFT Player Card · 10 treningów – koszulka + zniżka u partnerów</p>
+</section>
+
+<section id="playercard">
+  <h2>DMFT Player Card</h2>
+  <img src="player_card_sample.jpg" alt="Przykładowa karta" style="max-width: 100%; border-radius: 10px;">
+  <p>Spersonalizowana karta zawodnika w formacie PDF – Twoje cele, postępy i wskazówki, co poprawić.</p>
+</section>
+
+<section id="wspolprace">
+  <h2>Współprace</h2>
+  <p>Forteca Świerklany · Fizjoterapeuta · Fotograf<br>Zniżka -10% na hasło „DMFT10”</p>
+</section>
+
+<section id="obiekty">
+  <h2>Obiekty treningowe</h2>
+  <p>Stadion Fortecy Świerklany<br>ul. Zamkowa 6A, Świerklany<br>Dojazd do klienta do 20 km – gratis</p>
+</section>
+
+<section id="kontakt">
+  <h2>Kontakt</h2>
+  <p>📞 664 864 391<br>📸 Instagram: <a href="https://instagram.com/dm_footballtraining" target="_blank" style="color:gold">@dm_footballtraining</a></p>
+  <form>
+    <input type="text" placeholder="Imię" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Wiadomość" rows="5" required></textarea>
+    <button type="submit">Wyślij</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 DMFT · Dawid Michalak
+</footer>
+
+</body>
+</html>
