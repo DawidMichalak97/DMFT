@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="DMFT – Indywidualne treningi piłkarskie dla dzieci i dorosłych. Skupienie, progres, pasja. Świerklany / Rybnik + dojazd." />
+  <title>DMFT – Indywidualne treningi piłkarskie z pasją</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="DMFT – Indywidualne treningi piłkarskie z pasją" />
+  <meta property="og:description" content="Treningi piłkarskie 1–4 osoby • 6+ i dorośli • Świerklany / Rybnik + dojazd" />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png" />
+
+  <link rel="stylesheet" href="style.css?v=7" />
+  <script defer src="script.js?v=7"></script>
+</head>
+
+<body>
+  <div class="topline" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a class="brand" href="#top" aria-label="DMFT home">
+        <img src="logo.png" alt="DMFT logo" class="brand__logo" />
+        <span class="brand__text">DM Football Training</span>
+      </a>
+
+      <nav class="menu" aria-label="Główne menu">
+        <a class="menu__link" href="#o-mnie">O mnie</a>
+        <a class="menu__link" href="#oferta">Oferta</a>
+        <a class="menu__link" href="#jak-wyglada">Jak wygląda trening</a>
+        <a class="menu__link" href="#cennik">Cennik</a>
+        <a class="menu__link" href="#kontakt">Kontakt</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a class="btn btn--primary" href="#cennik">Zobacz cennik</a>
+        <a class="btn btn--primary" href="#kontakt">Umów trening</a>
+        <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="drawer">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile drawer OVERLAY -->
+    <div class="drawer" id="drawer" data-drawer aria-hidden="true">
+      <div class="drawer__inner" role="dialog" aria-modal="true" aria-label="Menu">
+        <a class="drawer__link" href="#o-mnie">O mnie</a>
+        <a class="drawer__link" href="#oferta">Oferta</a>
+        <a class="drawer__link" href="#jak-wyglada">Jak wygląda trening</a>
+        <a class="drawer__link" href="#cennik">Cennik</a>
+        <a class="drawer__link" href="#kontakt">Kontakt</a>
+
+        <div class="drawer__cta">
+          <a class="btn btn--primary btn--full" href="#kontakt">Umów trening</a>
+          <a class="btn btn--primary btn--full" href="#cennik">Zobacz cennik</a>
+        </div>
+
+        <div class="drawer__social">
+          <a class="iconlink" href="https://www.instagram.com/dm_footballtraining/" target="_blank" rel="noreferrer">
+            <img src="insta.png" alt="" /> Instagram
+          </a>
+          <a class="iconlink" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+            <img src="fb.png" alt="" /> Facebook
+          </a>
+        </div>
+
+        <button class="drawer__close" type="button" data-close-drawer aria-label="Zamknij menu">×</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__left reveal">
+          <div class="pill">
+            <span class="dot"></span>
+            Treningi 1–4 osoby • 6+ i dorośli • Świerklany / Rybnik + dojazd
+          </div>
+
+          <h1 class="hero__title">
+            Indywidualne treningi piłkarskie<br />
+            <span class="gold">Skupienie. Progres. Pasja.</span>
+          </h1>
+
+          <p class="hero__text">
+            Trening dopasowany do zawodnika: technika, pewność siebie i boiskowe myślenie.
+            Konkretny plan i realne postępy — bez lania wody.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#kontakt">Umów trening</a>
+            <a class="btn btn--primary" href="#jak-wyglada">Jak wygląda trening?</a>
+          </div>
+
+          <div class="hero__meta">
+            <div class="metaCard">
+              <div class="metaCard__kicker">Trener</div>
+              <div class="metaCard__value">UEFA</div>
+            </div>
+            <div class="metaCard">
+              <div class="metaCard__kicker">Miejsce</div>
+              <div class="metaCard__value">Świerklany, ul. Zamkowa 6A</div>
+            </div>
+            <div class="metaCard">
+              <div class="metaCard__kicker">Kontakt</div>
+              <div class="metaCard__value">664 864 391</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__right reveal">
+          <div class="glassCard">
+            <div class="glassCard__top">
+              <div class="avatar">
+                <div class="avatar__ring"></div>
+                <img src="chopek.png" alt="DMFT" />
+              </div>
+              <div>
+                <div class="name">Dawid Michalak</div>
+                <div class="role">DM Football Training</div>
+              </div>
+            </div>
+
+            <div class="glassCard__list">
+              <div class="tick">Indywidualny plan pod zawodnika</div>
+              <div class="tick">Diagnoza + cele + feedback</div>
+              <div class="tick">Możliwość grup 2–4 osoby</div>
+              <div class="tick">Dojazd (wg ustaleń) i stała baza</div>
+            </div>
+
+            <div class="glassCard__buttons">
+              <a class="btn btn--primary btn--full" href="#cennik">Sprawdź ofertę</a>
+              <a class="btn btn--primary btn--full" href="#kontakt">Napisz / zadzwoń</a>
+            </div>
+
+            <div class="glassCard__social">
+              <a class="social" href="https://www.instagram.com/dm_footballtraining/" target="_blank" rel="noreferrer">
+                <img src="insta.png" alt="" /> dm_footballtraining
+              </a>
+              <a class="social" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                <img src="fb.png" alt="" /> Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero__bottom">
+        <div class="stats reveal">
+          <div class="stats__item">
+            <div class="stats__num">60</div>
+            <div class="stats__label">min / trening</div>
+          </div>
+          <div class="stats__item">
+            <div class="stats__num">1–4</div>
+            <div class="stats__label">osoby w grupie</div>
+          </div>
+          <div class="stats__item">
+            <div class="stats__num">6+</div>
+            <div class="stats__label">od 6. roku życia</div>
+          </div>
+          <div class="stats__item">
+            <div class="stats__num">DMFT</div>
+            <div class="stats__label">progres w praktyce</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- O MNIE -->
+    <section class="section" id="o-mnie">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">O mnie</h2>
+          <p class="section__lead">
+            Nazywam się Dawid Michalak. Trenuję, uczę i pomagam rozwijać się zawodnikom w każdym wieku.
+            Od pierwszych kroków po ambitnych graczy, którzy chcą wejść poziom wyżej.
+          </p>
+        </div>
+
+        <div class="grid2">
+          <div class="panel reveal">
+            <h3 class="panel__title">Podejście DMFT</h3>
+            <p class="panel__text">
+              Każdy zawodnik jest inny, dlatego dobieram trening pod Twoje potrzeby.
+              Zaczynamy od diagnozy, ustalamy cele, a potem krok po kroku budujemy jakość na boisku.
+            </p>
+            <div class="badges">
+              <span class="badge badge--gold">Skupienie</span>
+              <span class="badge badge--gold">Progres</span>
+              <span class="badge badge--gold">Pasja</span>
+              <span class="badge badge--gold">Trener UEFA</span>
+            </div>
+          </div>
+
+          <div class="panel reveal">
+            <h3 class="panel__title">Co zyskujesz?</h3>
+            <div class="checklist">
+              <div class="check">Lepszą technikę i kontrolę piłki</div>
+              <div class="check">Więcej pewności siebie w grze</div>
+              <div class="check">Lepsze decyzje i „boiskowe myślenie”</div>
+              <div class="check">Konkretne wskazówki po treningu</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFERTA -->
+    <section class="section section--alt" id="oferta">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Oferta</h2>
+          <p class="section__lead">
+            Treningi indywidualne i w małych grupach. Możesz przyjść sam albo z kolegą/koleżanką,
+            żeby poczuć się pewniej i robić progres razem.
+          </p>
+        </div>
+
+        <div class="cards3">
+          <article class="card reveal">
+            <div class="card__icon">⚽</div>
+            <h3 class="card__title">Technika</h3>
+            <p class="card__text">Prowadzenie, zwody, przyjęcie kierunkowe, podania, strzały — jakość w detalach.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">🧠</div>
+            <h3 class="card__title">Decyzje</h3>
+            <p class="card__text">Skanowanie, ustawienie ciała, gra pod presją — szybciej widzisz i lepiej wybierasz.</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__icon">🔥</div>
+            <h3 class="card__title">Pewność siebie</h3>
+            <p class="card__text">Zadania dopasowane do poziomu, progres widoczny w tygodnie — nie w miesiące.</p>
+          </article>
+        </div>
+
+        <div class="note reveal">
+          <div class="note__title">Baza treningowa</div>
+          <div class="note__text">
+            Stadion Fortecy Świerklany (ul. Zamkowa 6A). Dodatkowo możliwy dojazd po ustaleniu.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JAK WYGLĄDA -->
+    <section class="section" id="jak-wyglada">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Jak wygląda trening?</h2>
+          <p class="section__lead">
+            Prosty schemat, który działa: diagnoza → plan → progres. Bez przypadkowych ćwiczeń.
+          </p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step__num">01</div>
+            <h3 class="step__title">Diagnoza</h3>
+            <p class="step__text">Poznaję zawodnika, poziom i potrzeby. Ustalamy cele i priorytety.</p>
+          </div>
+
+          <div class="step reveal">
+            <div class="step__num">02</div>
+            <h3 class="step__title">Plan</h3>
+            <p class="step__text">Dobieram ćwiczenia pod pozycję i styl gry. Progres jest mierzony i widoczny.</p>
+          </div>
+
+          <div class="step reveal">
+            <div class="step__num">03</div>
+            <h3 class="step__title">Feedback</h3>
+            <p class="step__text">Po treningu dostajesz konkret: co poprawić i jak pracować dalej.</p>
+          </div>
+        </div>
+
+        <div class="quote reveal">
+          <div class="quote__mark">“</div>
+          <div class="quote__text">DMFT to miejsce dla tych, którzy chcą więcej.</div>
+          <div class="quote__mark quote__mark--end">”</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CENNIK -->
+    <section class="section section--alt" id="cennik">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Cennik</h2>
+          <p class="section__lead">
+            Jasny i prosty cennik — wybierz wariant i umów trening w kilka chwil.
+          </p>
+        </div>
+
+        <div class="pricing">
+          <article class="priceCard reveal">
+            <div class="priceCard__top">
+              <h3 class="priceCard__title">1 osoba</h3>
+              <div class="priceCard__price"><span class="gold">100 zł</span><span class="muted">/ trening</span></div>
+            </div>
+            <div class="priceCard__list">
+              <div class="bullet">60 minut</div>
+              <div class="bullet">Indywidualny plan</div>
+              <div class="bullet">Feedback po treningu</div>
+            </div>
+            <div class="priceCard__packs">
+              <div class="pack"><span>Pakiet 5</span><span>450 zł</span></div>
+              <div class="pack"><span>Pakiet 10</span><span>800 zł</span></div>
+            </div>
+            <a class="btn btn--primary btn--full" href="#kontakt">Umów trening</a>
+          </article>
+
+          <article class="priceCard priceCard--featured reveal">
+            <div class="ribbon">Najczęściej wybierane</div>
+            <div class="priceCard__top">
+              <h3 class="priceCard__title">2 osoby</h3>
+              <div class="priceCard__price"><span class="gold">90 zł</span><span class="muted">/ os. / trening</span></div>
+            </div>
+            <div class="priceCard__list">
+              <div class="bullet">60 minut</div>
+              <div class="bullet">Mała grupa = pewniej</div>
+              <div class="bullet">Rywalizacja + współpraca</div>
+            </div>
+            <div class="priceCard__packs">
+              <div class="pack"><span>Pakiet 5</span><span>400 zł/os.</span></div>
+              <div class="pack"><span>Pakiet 10</span><span>720 zł/os.</span></div>
+            </div>
+            <a class="btn btn--primary btn--full" href="#kontakt">Zarezerwuj termin</a>
+          </article>
+
+          <article class="priceCard reveal">
+            <div class="priceCard__top">
+              <h3 class="priceCard__title">3–4 osoby</h3>
+              <div class="priceCard__price"><span class="gold">80 zł</span><span class="muted">/ os. / trening</span></div>
+            </div>
+            <div class="priceCard__list">
+              <div class="bullet">60 minut</div>
+              <div class="bullet">Wysoka intensywność</div>
+              <div class="bullet">Zadania pod grupę</div>
+            </div>
+            <div class="priceCard__packs">
+              <div class="pack"><span>Pakiet 5</span><span>360 zł/os. + bonusy</span></div>
+              <div class="pack"><span>Pakiet 10</span><span>640 zł/os. + bonusy</span></div>
+            </div>
+            <a class="btn btn--primary btn--full" href="#kontakt">Napisz po szczegóły</a>
+          </article>
+        </div>
+
+        <div class="extras reveal">
+          <div class="extras__card">
+            <h3 class="extras__title">Bonusy przy pakietach</h3>
+            <p class="extras__text">
+              5 treningów – DMFT Player Card<br />10 treningów – DMFT Player Card + koszulka DMFT + zniżki u partnerów.
+            </p>
+            <div class="badges">
+              <span class="badge badge--gold">DMFT Player Card</span>
+              <span class="badge badge--gold">Koszulka DMFT</span>
+              <span class="badge badge--gold">Zniżki -10%</span>
+            </div>
+          </div>
+
+          <div class="extras__card extras__card--thin">
+            <h3 class="extras__title">Dodatkowe informacje</h3>
+            <div class="checklist">
+              <div class="check">Dojazd do 15 km gratis (dalej indywidualnie)</div>
+              <div class="check">Możliwość dobrania grupy treningowej</div>
+              <div class="check">Treningi od 6. roku życia (młodsi po kontakcie)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section" id="kontakt">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2 class="section__title">Kontakt</h2>
+          <p class="section__lead">Zrób pierwszy krok – zacznij treningi już teraz!</p>
+        </div>
+
+        <div class="contact">
+          <div class="contact__card reveal">
+            <div class="contact__title">Napisz lub zadzwoń</div>
+            <div class="contact__big">664 864 391</div>
+            <div class="contact__small">Najlepiej SMS / WhatsApp – oddzwonię, jeśli nie odbiorę.</div>
+
+            <div class="contact__buttons">
+              <a class="btn btn--primary" href="tel:+48664864391">Zadzwoń</a>
+              <a class="btn btn--primary" href="https://wa.me/48664864391" target="_blank" rel="noreferrer">WhatsApp</a>
+            </div>
+
+            <div class="contact__social">
+              <a class="social" href="https://www.instagram.com/dm_footballtraining/" target="_blank" rel="noreferrer">
+                <img src="insta.png" alt="" /> dm_footballtraining
+              </a>
+              <a class="social" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+                <img src="fb.png" alt="" /> Facebook
+              </a>
+            </div>
+          </div>
+
+          <div class="contact__card reveal">
+            <div class="contact__title">Szybkie info</div>
+            <div class="miniFaq">
+              <div class="miniFaq__item">
+                <div class="miniFaq__q">Czy muszę mieć doświadczenie?</div>
+                <div class="miniFaq__a">Nie — trening dopasuję do poziomu, od podstaw po ambitnych zawodników.</div>
+              </div>
+              <div class="miniFaq__item">
+                <div class="miniFaq__q">Ile trwa trening?</div>
+                <div class="miniFaq__a">Standardowo 60 minut (możliwe 2h po ustaleniu).</div>
+              </div>
+              <div class="miniFaq__item">
+                <div class="miniFaq__q">Gdzie trenujemy?</div>
+                <div class="miniFaq__a">Stadion Fortecy Świerklany + opcja dojazdu (wg ustaleń).</div>
+              </div>
+            </div>
+
+            <div class="footerMark">
+              <img src="logo.png" alt="DMFT" />
+              <div>
+                <div class="footerMark__title">DM Football Training</div>
+                <div class="footerMark__sub">Skupienie • Progres • Pasja</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div>© <span id="year"></span> DM Football Training</div>
+          <a class="toTop" href="#top">Wróć do góry ↑</a>
+        </footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
